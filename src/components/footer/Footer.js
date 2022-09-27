@@ -23,11 +23,11 @@ const Footer = () => {
           target="_blank"
           title="teléfono Marta Ponce de León"
         >
-          722 177 717
+          (+34) 722 177 717
         </a>
       </div>
       <div className="footer-sns">
-        <div className="sns-links">
+      
           <a
             href="https://www.linkedin.com/in/marta-pg/"
             target="_blank"
@@ -35,15 +35,8 @@ const Footer = () => {
           >
             <i className="fab fa-linkedin linkedin"></i>
           </a>
-          <a
-            href="https://github.com/poncegui"
-            target="_blank"
-            rel="noreferrer"
-          >
-       
-       <i class="fa-brands fa-facebook"></i>
-          </a>
-        </div>
+          
+  
       </div>
     </footer>
   );

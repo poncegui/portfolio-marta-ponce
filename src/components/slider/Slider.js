@@ -1,8 +1,9 @@
 import React from "react";
 import Carousel from "@brainhubeu/react-carousel";
-import "@brainhubeu/react-carousel/lib/style.css";
+import '@brainhubeu/react-carousel/lib/style.css';
 import Slides from "./Slides";
 import "./Slider.css";
+import slides from "./Slides";
 
 const Slider = () => {
   return (
@@ -11,10 +12,11 @@ const Slider = () => {
         <h2>Mis proyectos</h2>
       </div>
 
-      <Carousel
-        arrows
-        slidesPerPage={3}
-        infinite
+      <Carousel plugins={['arrows',"infinite"]}
+      slides={slides}/>
+       
+        {/* slidesPerPage={3}
+        
         animationSpeed={200}
         centered
         offset={50}
@@ -26,8 +28,8 @@ const Slider = () => {
             arrows: false,
             itemWidth: 250,
           },
-        }}
-      />
+        }} */}
+      
     </div>
   );
 };

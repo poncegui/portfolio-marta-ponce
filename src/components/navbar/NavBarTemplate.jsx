@@ -93,7 +93,6 @@ const NavContainer = styled.nav`
 
 
   h3 {
-    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: white;
     font-weight: 400;
@@ -108,7 +107,6 @@ const NavContainer = styled.nav`
   justify-content: space-between;
 
   a {
-    font-family: 'Oswald', sans-serif;
     color: white;
     text-decoration: none;
     margin-right: 1.5rem;

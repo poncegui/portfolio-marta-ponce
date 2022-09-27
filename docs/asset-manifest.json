@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.be4c1489.css",
-    "main.js": "./static/js/main.f2370b4d.js",
+    "main.css": "./static/css/main.106aea1c.css",
+    "main.js": "./static/js/main.55af7456.js",
     "static/media/coverVideo.mp4": "./static/media/coverVideo.061a5b8c03b6de23401f.mp4",
     "static/media/politecnica.png": "./static/media/politecnica.1205160abca2234578da.png",
     "static/media/foto-portfolio.jpeg": "./static/media/foto-portfolio.e0f5c2c6ae893569805f.jpeg",
@@ -9,11 +9,11 @@
     "static/media/logo-adalab.svg": "./static/media/logo-adalab.0187ac2f3e9c24b3b65248560c7283b9.svg",
     "static/media/square-github.svg": "./static/media/square-github.8f5bc65e46f2037c9a42cddf3bd6713a.svg",
     "index.html": "./index.html",
-    "main.be4c1489.css.map": "./static/css/main.be4c1489.css.map",
-    "main.f2370b4d.js.map": "./static/js/main.f2370b4d.js.map"
+    "main.106aea1c.css.map": "./static/css/main.106aea1c.css.map",
+    "main.55af7456.js.map": "./static/js/main.55af7456.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4c1489.css",
-    "static/js/main.f2370b4d.js"
+    "static/css/main.106aea1c.css",
+    "static/js/main.55af7456.js"
   ]
 }

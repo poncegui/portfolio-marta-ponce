@@ -16,18 +16,20 @@ const Navbar = () => {
   };
 
   return (
-    <>  <Hero>
+    <>  
+    
+    <Hero>
     <h1>| Portfolio |  </h1>
   </Hero>
     
       <NavContainer id="menu-principal" >
-        <Link className="Link" to="/" onClick={handleBack}>
     
-            <h3>
-             <span>Home</span>
-            </h3>
+    
+            <h2>
+            Home
+            </h2>
         
-        </Link>
+     
 
         <div className={`links ${clicked ? "active" : ""}`}>
           <Link onClick={handleClick} 
@@ -69,7 +71,7 @@ export default Navbar;
 
 const NavContainer = styled.nav`
   background-color: black;
-  height: 100px;
+  height: 80px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -87,7 +89,7 @@ const NavContainer = styled.nav`
       margin-left: 40px;
     }
   }
-  h3 {
+  h2 {
     color: white;
     font-weight: 400;
     margin-left: 20px;
@@ -112,7 +114,7 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all 0.5s ease;
     a {
-text-transform: uppercase;
+      text-transform: uppercase;
       color: white;
       font-size: 1.2rem;
       display: block;
@@ -131,6 +133,26 @@ text-transform: uppercase;
         }
       }
       display: block;
+    }
+
+    @media (max-width: 768px) {
+      h3{
+        font-size: 24px;
+        margin:0px;
+        padding:0px;
+      }
+      a {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        margin:0px;
+        padding:0px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          color: gray;
+          font-weight: bold;
+          transition: all 0.3s ease-out;
+        }
     }
   }
   .links.active {
@@ -161,13 +183,15 @@ text-transform: uppercase;
     }
     @media (max-width: 768px) {
       h3{
-        font-size: 1.8rem;
+        font-size: 24px;
         margin:0px;
         padding:0px;
       }
       a {
         font-size: 1rem;
         margin-top: 0.8rem;
+        margin:0px;
+        padding:0px;
         color: white;
         cursor: pointer;
         &:hover {
@@ -189,8 +213,8 @@ const BgDiv = styled.div`
   position: absolute;
   top: -1000px;
   left: -1000px;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   z-index: -1;
   transition: all 0.3s ease;
   &.active {
@@ -229,14 +253,14 @@ const Hero = styled.nav`
 
 
   @media (max-width: 768px) {
-    min-height: 15vh;
+    min-height: 20vh;
     h1 {
    
       font-size: 3rem
     }
-    span {
+   h3 {
       color: white;
-      font-size: 1rem
+      font-size: 3rem;
       margin:0px;
     }
    
