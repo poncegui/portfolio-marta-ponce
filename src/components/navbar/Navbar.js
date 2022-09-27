@@ -53,10 +53,7 @@ const Navbar = () => {
         descargar cv
         </a>
    
-          <Link onClick={handleClick} 
-          to="/contacto" >
-            contacto
-          </Link>
+     
         </div>
         <div className="burguer">
           <BurguerBtn clicked={clicked} handleClick={handleClick} />
@@ -70,25 +67,9 @@ const Navbar = () => {
 export default Navbar;
 
 const NavContainer = styled.nav`
-  background-color: black;
-  height: 80px;
+  height: 100px;
   width: 100%;
-  position: sticky;
-  top: 0;
   z-index: 50;
-  .containerPrincipal {
-    display: flex;
-    flex-direction: row;
-  }
-  .fa-angles-left {
-    margin-left: 50px;
-    font-size: 25px;
-    color: white;
-
-    @media (max-width: 768px) {
-      margin-left: 40px;
-    }
-  }
   h2 {
     color: white;
     font-weight: 400;
@@ -98,6 +79,8 @@ const NavContainer = styled.nav`
     }
   }
   padding: 0.4rem;
+  //   background-color: #333;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,6 +88,7 @@ const NavContainer = styled.nav`
     color: white;
     text-decoration: none;
     margin-right: 1.5rem;
+    
   }
   .links {
     position: absolute;
@@ -114,7 +98,6 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all 0.5s ease;
     a {
-      text-transform: uppercase;
       color: white;
       font-size: 1.2rem;
       display: block;
@@ -123,7 +106,7 @@ const NavContainer = styled.nav`
       position: initial;
       margin: 0;
       a {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         margin-left: 30px;
         color: white;
         display: inline;
@@ -134,74 +117,39 @@ const NavContainer = styled.nav`
       }
       display: block;
     }
-
-    @media (max-width: 768px) {
-      h3{
-        font-size: 24px;
-        margin:0px;
-        padding:0px;
-      }
-      a {
-        font-size: 1rem;
-        margin-top: 0.8rem;
-        margin:0px;
-        padding:0px;
-        color: white;
-        cursor: pointer;
-        &:hover {
-          color: gray;
-          font-weight: bold;
-          transition: all 0.3s ease-out;
-        }
-    }
   }
   .links.active {
     @media (max-width: 1090px) {
-      background-color: black;
-      border-radius: 0 0 90% 0;
-      height: 300px;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      background-color: #000;
+      border-radius: 0 0 0 0;
+      height:50vh;
       width: 100%;
-      display: block;
-      position: absolute;
       margin-left: auto;
       margin-right: auto;
-      top: 90px;
+      top: 20vh;
       left: 0;
       right: 0;
-      text-align: center;
+      text-align: start;
       a {
-        font-size: 1.4rem;
-        margin-top: 0.8rem;
+        font-size: 1.6rem;
+        margin-top: 2rem;
         color: white;
         cursor: pointer;
+        text-align:start;
         &:hover {
           color: gray;
           font-weight: bold;
-          transition: all 0.3s ease-out;
+          transition: all 0.5s ease-out;
         }
       }
     }
-    @media (max-width: 768px) {
-      h3{
-        font-size: 24px;
-        margin:0px;
-        padding:0px;
-      }
-      a {
-        font-size: 1rem;
-        margin-top: 0.8rem;
-        margin:0px;
-        padding:0px;
-        color: white;
-        cursor: pointer;
-        &:hover {
-          color: gray;
-          font-weight: bold;
-          transition: all 0.3s ease-out;
-        }
+    @media(max-width: 768px){
     }
   }
-
   .burguer {
     @media (min-width: 1090px) {
       display: none;
@@ -210,24 +158,24 @@ const NavContainer = styled.nav`
 `;
 
 const BgDiv = styled.div`
-  color: white;
+  // background-color: #222;
   position: absolute;
   top: -1000px;
   left: -1000px;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
   z-index: -1;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
+  overflow: visible;
+
   &.active {
-    background-color: black;
     border-radius: 0 0 80% 0;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  @media (min-width: 1090px) {
-    display: none;
+    overflow: visible;
   }
 `;
 

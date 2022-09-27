@@ -85,6 +85,7 @@ h3::first-letter{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow-x: hidden;
   }
 
   .about-img > img {
@@ -94,6 +95,18 @@ h3::first-letter{
 
 
 @media (max-width: 768px) {
+  about-img {
+    background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
+    url("../../img/porfolio-bis.JPG");
+    min-width: 100vh;
+    background-size: 100%;
+    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
   .about-container {
     flex-direction: column;
     padding: 0;

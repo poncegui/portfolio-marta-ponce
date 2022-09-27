@@ -8,7 +8,7 @@
   z-index: -2;
   bottom: 0;
   left: 0;
- 
+  overflow-x: hidden;
 }
 
 .footer-info {
@@ -42,7 +42,6 @@
   grid-template-columns: 2fr 1fr;
   align-items: center;
   padding: 100px 0 30px 50px;
-
 }
 
 .sns-links {
@@ -58,10 +57,10 @@
   margin: 0 auto;
   padding-bottom: 10px;
   border-bottom: 4px solid transparent;
+  cursor: pointer;
 }
 
-.linkedin:hover,
-.github:hover {
+.linkedin:hover{
   border-color: white;
   transition: all 0.3s ease-out;
 }
@@ -129,9 +128,10 @@
     margin: 0 auto;
     margin-bottom: 100px;
     border-bottom: 4px solid transparent;
- 
   }
-  .footer{
+
+
+  .footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -147,4 +147,11 @@
   font-size: 24px;
   margin: 15px 0px;
 }
+
+.footer-tel:hover,
+.footer-mail:hover{
+  border-color: white;
+  transition: all 0.3s ease-out;
+}
+
 

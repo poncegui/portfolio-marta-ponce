@@ -24,8 +24,7 @@
 }
 
 .Link:hover {
-  border-color: black;
-  border-bottom: 4px solid transparent;
+  font-size: 55px;
   transition: all 0.5s ease-out;
 }
 
@@ -68,13 +67,18 @@
     padding: 20px;
     margin: 10px;
   }
-
+  
   
 .Link{
   font-size: 18px;
   padding: 20px;
   margin: 10px;
 }
+.Link:hover {
+  font-size: 22px;
+  transition: all 0.5s ease-out;
+}
+
 }
 
 @media  (max-width: 400px) {

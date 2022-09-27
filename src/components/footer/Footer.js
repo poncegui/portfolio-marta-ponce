@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import github from "../../img/square-github.svg";
 
 const Footer = () => {
   return (
@@ -8,7 +7,8 @@ const Footer = () => {
       <div className="footer-info">
         <h1>CONTACTO</h1>
       </div>
-      <div className="footer-contact">
+      <nav className="footer-contact">
+        
         <a
           className="mail"
           href="mailto:marta.ponceg@gmail.com"
@@ -25,7 +25,7 @@ const Footer = () => {
         >
           (+34) 722 177 717
         </a>
-      </div>
+      </nav>
       <div className="footer-sns">
       
           <a

@@ -24,17 +24,13 @@ function App() {
   return (
     <>
       <Routes>
-  
         {/* <Route 
                     path='*' element={<NotFoundPage />} 
                     /> */}
 
         <Route path="/estudios" element={<Studies />} />
 
-  
         {/* <Route path="/contacto" element={<Projects />} /> */}
-
-   
 
         {/* <Route path="/colaboradores" element={<Partners />} /> */}
 
@@ -55,7 +51,6 @@ function App() {
             </>
           }
         />
-
       </Routes>
     </>
   );
