@@ -201,6 +201,7 @@ const NavContainer = styled.nav`
         }
     }
   }
+
   .burguer {
     @media (min-width: 1090px) {
       display: none;
@@ -224,6 +225,9 @@ const BgDiv = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  @media (min-width: 1090px) {
+    display: none;
   }
 `;
 

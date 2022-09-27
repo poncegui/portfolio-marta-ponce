@@ -1,26 +1,39 @@
 import React from "react";
 import "./Slider.css";
+import potter from "../../img/api-harry-potter.jpg";
+import lorem from "../../img/lorem.jpg";
+import anime from "../../img/anime.jpg";
+import codeReact from "../../img/react.jpg";
+
 
 const slidesInfo = [
   {
     src:
-      "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
-    alt: "work in progress {react}",
-    desc: "work in progress {react}",
+      codeReact,
+    alt: "work in progress {react}  website",
+    desc: "work in progress {react}  website",
     url: "https://poncegui.github.io/afymos-socuellamos/",
  
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
-    alt: "javaScript - finder movies",
-    desc: "javaScript - finder movies",
+      potter,
+    alt: "React - consumiendo API",
+    desc:  "React - consumiendo API",
+    url: "https://poncegui.github.io/harry-potter-character-finder/#/",
+  
+  },
+  {
+    src:
+      anime,
+    alt: "javaScript - set Local Storage",
+    desc: "javaScript - set Local Storage",
     url: "https://poncegui.github.io/anime-movies-finder-js/",
   
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
+      lorem,
     alt: "Html5/sass",
     desc: "Html5/sass",
     url: "https://poncegui.github.io/-practicing-with-sass/",

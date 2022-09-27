@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.106aea1c.css",
-    "main.js": "./static/js/main.55af7456.js",
+    "main.css": "./static/css/main.1cfe811d.css",
+    "main.js": "./static/js/main.64f987cd.js",
     "static/media/coverVideo.mp4": "./static/media/coverVideo.061a5b8c03b6de23401f.mp4",
     "static/media/politecnica.png": "./static/media/politecnica.1205160abca2234578da.png",
     "static/media/foto-portfolio.jpeg": "./static/media/foto-portfolio.e0f5c2c6ae893569805f.jpeg",
     "static/media/alcala.png": "./static/media/alcala.6dbcfb2421eacce4b935.png",
+    "static/media/api-harry-potter.jpg": "./static/media/api-harry-potter.1db5d6fdfd03f6208dc2.jpg",
+    "static/media/react.jpg": "./static/media/react.a28da88112fb29c89276.jpg",
+    "static/media/anime.jpg": "./static/media/anime.51e2c981c541cf8a92a7.jpg",
+    "static/media/lorem.jpg": "./static/media/lorem.d392572455fde98d7f38.jpg",
     "static/media/logo-adalab.svg": "./static/media/logo-adalab.0187ac2f3e9c24b3b65248560c7283b9.svg",
     "static/media/square-github.svg": "./static/media/square-github.8f5bc65e46f2037c9a42cddf3bd6713a.svg",
     "index.html": "./index.html",
-    "main.106aea1c.css.map": "./static/css/main.106aea1c.css.map",
-    "main.55af7456.js.map": "./static/js/main.55af7456.js.map"
+    "main.1cfe811d.css.map": "./static/css/main.1cfe811d.css.map",
+    "main.64f987cd.js.map": "./static/js/main.64f987cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.106aea1c.css",
-    "static/js/main.55af7456.js"
+    "static/css/main.1cfe811d.css",
+    "static/js/main.64f987cd.js"
   ]
 }
