@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Cover from "./cover/Cover";
 import Navbar from "./navbar/Navbar";
@@ -13,36 +13,29 @@ import Experience from "./studies/Experience";
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
 
-
-
-
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollHeight(position);
   };
 
-
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   }, [scrollHeight]);
 
-
-
   return (
     <>
       <Routes>
-       <Route path="/formacion" element={<Studies />} />
+        <Route path="/formacion" element={<Studies />} />
         <Route path="/experiencia" element={<Experience />} />
 
         <Route
           path="/"
           element={
             <>
-              <Navbar scrolling={scrollHeight}   />
+              <Navbar scrolling={scrollHeight} />
 
               <Cover />
-             <About />
+              <About />
               <Slider />
               <Info />
 

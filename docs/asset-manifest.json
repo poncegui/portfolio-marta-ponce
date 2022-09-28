@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.620c106d.css",
-    "main.js": "./static/js/main.01dadf18.js",
+    "main.css": "./static/css/main.83a42e2f.css",
+    "main.js": "./static/js/main.540c8c96.js",
     "static/media/coverVideo.mp4": "./static/media/coverVideo.061a5b8c03b6de23401f.mp4",
     "static/media/politecnica.png": "./static/media/politecnica.1205160abca2234578da.png",
     "static/media/foto-portfolio.jpeg": "./static/media/foto-portfolio.e0f5c2c6ae893569805f.jpeg",
@@ -13,15 +13,15 @@
     "static/media/sacyr.JPG": "./static/media/sacyr.df0a216d18b94bbaabcc.JPG",
     "static/media/df.JPG": "./static/media/df.e815e86cd28b815d6fb0.JPG",
     "static/media/adalab.JPG": "./static/media/adalab.76ddefc5d5547d369965.JPG",
-    "static/media/isolux.JPG": "./static/media/isolux.aa5f28c527ef0e1ba170.JPG",
     "static/media/lorem.jpg": "./static/media/lorem.d392572455fde98d7f38.jpg",
+    "static/media/isolux.JPG": "./static/media/isolux.b91f4eadbeb63d48d317.JPG",
     "static/media/uground.JPG": "./static/media/uground.23cb4247b38ee4e7b193.JPG",
     "index.html": "./index.html",
-    "main.620c106d.css.map": "./static/css/main.620c106d.css.map",
-    "main.01dadf18.js.map": "./static/js/main.01dadf18.js.map"
+    "main.83a42e2f.css.map": "./static/css/main.83a42e2f.css.map",
+    "main.540c8c96.js.map": "./static/js/main.540c8c96.js.map"
   },
   "entrypoints": [
-    "static/css/main.620c106d.css",
-    "static/js/main.01dadf18.js"
+    "static/css/main.83a42e2f.css",
+    "static/js/main.540c8c96.js"
   ]
 }

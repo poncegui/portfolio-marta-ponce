@@ -28,7 +28,7 @@ const slidesInfo = [
       endopints,
     alt: "React - Node js, endpoints & login",
     desc:  "React - Node js, endpoints & login",
-    url: "https://poncegui.github.io/harry-potter-character-finder/#/",
+    url: "https://github.com/poncegui/endpoints-ddbb-login-netflix",
   
   },
   {

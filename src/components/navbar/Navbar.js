@@ -4,7 +4,7 @@ import styled from "styled-components";
 import BurguerBtn from "./BurguerBtn";
 
 const Navbar = props => {
-  const [scrollSection, setScrollSection] = useState(500);
+  const [scrollSection, setScrollSection] = useState(0);
 
   const handleSection = () => {
     const position = window.pageYOffset;
@@ -21,7 +21,7 @@ const Navbar = props => {
   };
 
   const toSection = () => {
-    window.scrollTo({ top: 2000, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 1500, left: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
