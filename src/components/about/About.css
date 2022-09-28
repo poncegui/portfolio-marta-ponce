@@ -1,8 +1,8 @@
 .about-container {
   background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
   url("../../img/foto-portfolio.jpeg");
-  min-width: 100vh;
-  background-size: 100%;
+  /* min-width: 100vh; */
+  /* background-size: 100%; */
   background-position: cover;
   background-size: cover;
   background-position: center;
@@ -75,17 +75,9 @@ h3::first-letter{
   }
 
   .about-img {
-    background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
-    url("../../img/foto-portfolio.jpeg");
-    min-width: 100vh;
-    background-size: 100%;
-    background-position: cover;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow-x: hidden;
+    /* background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
+    url("../../img/foto-portfolio.jpeg"); */
+
   }
 
   .about-img > img {
@@ -96,10 +88,10 @@ h3::first-letter{
 
 @media (max-width: 768px) {
   about-img {
-    background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
-    url("../../img/porfolio-bis.JPG");
-    min-width: 100vh;
-    background-size: 100%;
+    /* background: linear-gradient(rgba(87, 89, 95, 0.8), rgba(75, 77, 81, 0.8)),
+    url("../../img/porfolio-bis.JPG"); */
+  
+  
     background-position: cover;
     background-size: cover;
     background-position: center;

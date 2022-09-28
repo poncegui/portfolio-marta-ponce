@@ -4,7 +4,7 @@ import potter from "../../img/api-harry-potter.jpg";
 import lorem from "../../img/lorem.jpg";
 import anime from "../../img/anime.jpg";
 import codeReact from "../../img/react.jpg";
-
+import endopints from "../../img/node-react.jpg";
 
 const slidesInfo = [
   {
@@ -20,6 +20,14 @@ const slidesInfo = [
       potter,
     alt: "React - consumiendo API",
     desc:  "React - consumiendo API",
+    url: "https://poncegui.github.io/harry-potter-character-finder/#/",
+  
+  },
+  {
+    src:
+      endopints,
+    alt: "React - Node js, endpoints & login",
+    desc:  "React - Node js, endpoints & login",
     url: "https://poncegui.github.io/harry-potter-character-finder/#/",
   
   },

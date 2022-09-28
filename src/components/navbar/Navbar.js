@@ -1,59 +1,66 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import BurguerBtn from "./BurguerBtn";
 
+const Navbar = props => {
+  const [scrollSection, setScrollSection] = useState(500);
 
+  const handleSection = () => {
+    const position = window.pageYOffset;
+    setScrollSection(position);
+  };
 
-const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     setClicked(!clicked);
   };
 
-  const handleBack = () => {
-    window.history.back();
+  const toHome = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
+  const toSection = () => {
+    window.scrollTo({ top: 2000, left: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    window.addEventListener("click", handleSection);
+  }, [scrollSection]);
+
   return (
-    <>  
-    
-    <Hero>
-    <h1>| Portfolio |  </h1>
-  </Hero>
-    
-      <NavContainer id="menu-principal" >
-    
-    
-            <h2>
-            Home
-            </h2>
-        
-     
+    <>
+      <Hero>
+        <h1>| Portfolio | </h1>
+      </Hero>
+
+      <NavContainer id="menu-principal" scrolling={props.scrolling}>
+        <Link onClick={toHome} section={scrollSection}>
+          <h2>| Home | </h2>
+        </Link>
 
         <div className={`links ${clicked ? "active" : ""}`}>
-          <Link onClick={handleClick} 
-          to="#aboutUs" >
-            sobre mí
-          </Link>
           <Link
-            onClick={handleClick}
-            to="/estudios"
-       
+            className={`links ${clicked ? "links" : ""}`}
+            onClick={toSection}
+            section={props.section}
           >
-            formación
-          </Link>
-          <Link onClick={handleClick} 
-          to="/experiencia" >
-            experiencia 
+            | sobre mí |
           </Link>
 
-          <a href="MARTA PONCE DE LEON_CV.pdf"
-			download="MARTA PONCE DE LEON_CV.pdf">
-        descargar cv
-        </a>
-   
-     
+          <Link onClick={handleClick} to="/formacion">
+            | formación |
+          </Link>
+          <Link onClick={handleClick} to="/experiencia">
+            | experiencia |
+          </Link>
+
+          <a
+            href="MARTA PONCE DE LEON_CV.pdf"
+            download="MARTA PONCE DE LEON_CV.pdf"
+          >
+            | descargar cv |
+          </a>
         </div>
         <div className="burguer">
           <BurguerBtn clicked={clicked} handleClick={handleClick} />
@@ -70,6 +77,10 @@ const NavContainer = styled.nav`
   height: 100px;
   width: 100%;
   z-index: 50;
+  position:sticky;
+  padding: 0px 30px;
+
+  top:0;
   h2 {
     color: white;
     font-weight: 400;
@@ -96,7 +107,7 @@ const NavContainer = styled.nav`
     left: -2000px;
     right: 0;
     text-align: center;
-    transition: all 0.5s ease;
+    all 400ms ease-out;
     a {
       color: white;
       font-size: 1.2rem;
@@ -130,7 +141,7 @@ const NavContainer = styled.nav`
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-      top: 20vh;
+      top: 10vh;
       left: 0;
       right: 0;
       text-align: start;
@@ -197,24 +208,21 @@ const Hero = styled.nav`
 
   span {
     color: white;
-    font-size: 1.5rem
+    font-size: 1.5rem;
   }
   h1:first-letter {
     font-size: 150%;
   }
 
-
   @media (max-width: 768px) {
     min-height: 20vh;
     h1 {
-   
-      font-size: 3rem
+      font-size: 3rem;
     }
-   h3 {
+    h3 {
       color: white;
       font-size: 3rem;
-      margin:0px;
+      margin: 0px;
     }
-   
   }
 `;

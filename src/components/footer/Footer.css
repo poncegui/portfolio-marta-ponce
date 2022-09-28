@@ -1,5 +1,5 @@
 .footer {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: black;
   color: white;
@@ -153,5 +153,3 @@
   border-color: white;
   transition: all 0.3s ease-out;
 }
-
-

@@ -5,8 +5,7 @@
 }
 
 body {
-	background: rgb(208, 202, 202);
-    font-family: 'Special Elite', cursive;
+	background: rgb(191, 193, 196);
 	color: black;
 }
 
@@ -18,6 +17,35 @@ body {
 	font-size: 36px;
 	text-transform: uppercase;
 }
+
+
+	
+
+@media (max-width: 1090px) {
+	.hero {
+		font-size: 32px;
+
+	}
+}
+
+@media (max-width: 768px) {
+	.hero {
+		font-size: 28px;
+		min-height: 20vh;
+	
+
+	}
+}
+@media (max-width: 400px) {
+	.hero {
+		font-size: 24px;
+
+	
+
+	}
+}
+
+
 
 .container {
 	width: 90%;
@@ -67,13 +95,39 @@ body {
 	width: calc(42% + 20px);
 	font-size: 32px;
 	font-weight: normal;
+
+	
+}
+
+@media (max-width: 1090px) {
+	.fecha {
+		font-size: 26px;
+
+	}
+}
+
+@media (max-width: 768px) {
+	.fecha {
+		font-size: 18px;
+
+	}
+
+}
+
+@media (max-width: 400px) {
+	.fecha {
+		font-size: 16px;
+		padding: 0px 20px;
+
+	}
 }
 
 .foto {
 	width: 42%;
-	border: 10px solid #fff;
+	border: 1px solid black;
 	position: relative;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	background-color: white;
 }
 
 .foto::after {

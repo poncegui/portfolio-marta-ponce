@@ -1,27 +1,22 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+
 import "./template.css";
 
+import NavBarInfo from "./NavBarInfo";
 
-import NavBarTemplate from "../navbar/NavBarTemplate";
-import Footer from "../footer/Footer";
-
-
-
-
+import sacyr from "../../img/sacyr.JPG"
+import df from "../../img/df.JPG"
+import isolux from "../../img/isolux.JPG"
+import uground from "../../img/uground.JPG"
 
 const Experience = () => {
  
 
 
-
   return (
     <>
-      <NavBarTemplate
-    title="experiencia"
-    alt=""
-    />
-
+        <NavBarInfo
+   
+   />
 
 <div class="hero">
 		<h1>Experiencia</h1>
@@ -29,45 +24,35 @@ const Experience = () => {
 	<div class="container">
 		<div class="evento">
 			<div class="foto" data-aos="fade-up">
-			<img src="./img/5.jpg" alt=""/>
+			<a href="https://www.uground.com/" target="_blank" alt="uground">
+			
+			<img src={uground} alt="uground"/>
+			</a>
+			
 			</div>
-			<h3 class="fecha">Web Developer | Migración de datos con JavaScript  |  febrero 2022 - julio 2022. </h3>
-     
+			<h3 class="fecha">Web Developer | Migración de datos con JavaScript <br></br>febrero 2022 - julio 2022. </h3>
 		</div>
-		<div class="evento">
-			<div class="foto" data-aos="fade-down">
-			<img src="./img/5.jpg" alt=""/>
-			</div>
-			<h3 class="fecha">Responsable Control de Costes y Planificación | enero 2021 - septiembre 2022</h3>
-		</div>
-		<div class="evento">
+				<div class="evento">
 			<div class="foto" data-aos="fade-left">
-			<img src="./img/5.jpg" alt=""/>
+			<img src={sacyr} alt="sacyr-fluor"/>
 			</div>
-			<h3 class="fecha">Arquitectura ténica | Ingeniería de Edificación |2004-2010</h3>
+			<h3 class="fecha">Ingeniera Estimaciones<br></br>  2019 - 2021</h3>
 		</div>
 		<div class="evento">
 			<div class="foto" data-aos="fade-right">
-				<img src="./img/4.jpg" alt=""/>
+				<img src={df} alt=" duro felguera"/>
 			</div>
-			<h3 class="fecha">18 de Agosto de 2023</h3>
+			<h3 class="fecha">Project Control<br></br>  2017 - 2019</h3>
 		</div>
 		<div class="evento">
 			<div class="foto" data-aos="fade-up">
-				<img src="./img/5.jpg" alt=""/>
+				<img src={isolux} alt="isolux corsan"/>
 			</div>
-			<h3 class="fecha">26 de Noviembre de 2024</h3>
+			<h3 class="fecha">Project Control<br></br>  2014 - 2017</h3>
 		</div>
-		<div class="evento">
-			<div class="foto" data-aos="fade-up">
-				<img src="./img/6.jpg" alt=""/>
-			</div>
-			<h3 class="fecha">7 de Diciembre de 2021</h3>
-		</div>
+	
 	</div>
-
-
-
+	
     </>
   );
 };
