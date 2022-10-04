@@ -78,6 +78,7 @@
     align-items: center;
     margin: 0px;
     background-color: white;
+    overflow-x: hidden;
   }
 
   .gridContainer {
@@ -86,10 +87,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: auto;
-    grid-gap: 30px 50px;
+    grid-gap: 30px 30px;
     margin: 5%;
     margin-bottom: 15%;
-    overflow-x: hidden;
+
   }
 
 
@@ -102,13 +103,13 @@
   }
   .icons > img {
     color: black;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width:40px;
   }
   .clicke > img {
     color: black;
     height: 40px;
-    width: 40px;
+    width:40px;
   }
 
   .icons {
