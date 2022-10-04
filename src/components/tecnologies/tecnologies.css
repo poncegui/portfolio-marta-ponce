@@ -81,11 +81,12 @@
   }
 
   .gridContainer {
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: auto;
-    grid-gap: 50px 80px;
+    grid-gap: 30px 50px;
     margin: 5%;
     margin-bottom: 15%;
   }
@@ -105,8 +106,8 @@
   }
   .clicke > img {
     color: black;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
 
   .icons {
