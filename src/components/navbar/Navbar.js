@@ -45,7 +45,7 @@ const Navbar = props => {
             onClick={toSection}
             section={props.section}
           >
-           <strong>| sobre mí |</strong> 
+        | sobre mí |
           </Link>
 
           <Link onClick={handleClick} to="/formacion">
@@ -99,8 +99,8 @@ const NavContainer = styled.nav`
     text-decoration: none;
     margin-right: 1.5rem;
     &:hover {
-      text-decoration:line-through;
-      color: rgb(11, 235, 48);
+      text-decoration:line-through rgb(11, 235, 48);
+      transition: all 0.3s ease-out;
      
     }
   }
@@ -116,9 +116,9 @@ const NavContainer = styled.nav`
       font-size: 1.2rem;
       display: block;
       &:hover {
-        text-decoration:line-through;
-        color: rgb(11, 235, 48);
-       
+        text-decoration:line-through rgb(11, 235, 48);
+        transition: all 0.3s ease-out;
+
       }
     }
     @media (min-width: 1090px) {
@@ -157,8 +157,7 @@ const NavContainer = styled.nav`
         cursor: pointer;
         text-align:start;
         &:hover {
-          color: gray;
-          font-weight: bold;
+          
           transition: all 0.5s ease-out;
         }
       }
