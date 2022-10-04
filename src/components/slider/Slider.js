@@ -8,7 +8,7 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">
-        <h2>Mis proyectos</h2>
+        <h3>Mis proyectos</h3>
       </div>
 
       <Carousel plugins={['arrows',"infinite"]}

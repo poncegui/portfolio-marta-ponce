@@ -7,8 +7,14 @@ import About from "./about/About";
 import Slider from "./slider/Slider";
 import Studies from "./studies/Studies";
 import Info from "./info/Info";
+import Counter from "./counter/Counter";
 import Footer from "./footer/Footer";
 import Experience from "./studies/Experience";
+import CounterBtn from "./counter/Counter";
+import Tecnologies from "./tecnologies/Tecnologies";
+
+
+
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -37,8 +43,10 @@ function App() {
               <Cover />
               <About />
               <Slider />
+              <Tecnologies />
               <Info />
-
+          
+             
               <Footer />
             </>
           }

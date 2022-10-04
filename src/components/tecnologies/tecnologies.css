@@ -1,0 +1,147 @@
+.tecno-main {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  background-color: white;
+}
+
+.title {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title > h3 {
+  color: black;
+  font-size: 45px;
+
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: auto;
+  grid-gap: 50px 80px;
+  margin: 5%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  background: #e0e0e0;
+  box-shadow: 41px 41px 82px #949494, -41px -41px 82px #ffffff;
+}
+
+.clicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #797979, -5px -5px 10px #ffffff;
+}
+
+.icons > img {
+  color: black;
+  height: 100px;
+  width: 100px;
+}
+
+.clicked > img {
+  color: black;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+@media (max-width: 768px) {
+  .tecno-main {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-color: white;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    grid-gap: 50px 80px;
+    margin: 5%;
+    margin-bottom: 15%;
+  }
+
+
+  .title {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .icons > img {
+    color: black;
+    height: 50px;
+    width: 50px;
+  }
+  .clicke > img {
+    color: black;
+    height: 50px;
+    width: 50px;
+  }
+
+  .icons {
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 41px 41px 82px #949494, -41px -41px 82px #ffffff;
+  }
+
+  .title > h3 {
+    font-size: 30px;
+    color: black;
+    margin: 15% auto;
+  }
+
+  .clicked {
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #797979, -5px -5px 10px #ffffff;
+  }
+}
+
+/* .react{
+    grid-column: 1fr;
+    grid-row: 1fr;
+}
+
+.js{
+    grid-column: 2fr;
+    grid-row: 1fr;
+}
+
+.node{
+    grid-column: 3fr;
+    grid-row: 1fr;
+} */

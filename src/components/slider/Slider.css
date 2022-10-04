@@ -125,6 +125,11 @@
     width: 100%;
     text-align: center;
     padding:0px ;
+    font-size: 30px;
+  }
+  .carousel-title > h3{
+   
+    font-size: 30px;
   }
   .slide-desc {
     background-color: black;

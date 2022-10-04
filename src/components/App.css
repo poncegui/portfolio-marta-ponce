@@ -8,3 +8,9 @@
 html {
   overflow-x: hidden;
 }
+
+:root{
+  margin: 0;
+  padding: 0;
+
+}

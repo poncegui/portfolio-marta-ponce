@@ -1,8 +1,7 @@
 .footer {
   width: 100vw;
   height: 100vh;
-  background-color: black;
-  color: white;
+  background-color: white;
   padding-top: 180px;
   position: fixed;
   z-index: -2;
@@ -52,7 +51,7 @@
 
 .linkedin
  {
-  color: white;
+  color: black;
   font-size: 50px;
   margin: 0 auto;
   padding-bottom: 10px;
@@ -61,14 +60,14 @@
 }
 
 .linkedin:hover{
-  border-color: white;
+  border-color: black;
   transition: all 0.3s ease-out;
 }
 
 .design-by {
   font-size: 18px;
   padding-left: 50px;
-  color: white;
+  color: black;
 }
 
 @media (max-width: 960px) {
@@ -123,7 +122,7 @@
 
   .linkedin {
     position:relative;
-    color: white;
+    color: black;
     font-size: 50px;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -143,13 +142,13 @@
 .tel,
 .mail {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 24px;
   margin: 15px 0px;
 }
 
 .footer-tel:hover,
 .footer-mail:hover{
-  border-color: white;
+  border-color: black;
   transition: all 0.3s ease-out;
 }

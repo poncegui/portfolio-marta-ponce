@@ -45,7 +45,7 @@ const Navbar = props => {
             onClick={toSection}
             section={props.section}
           >
-            | sobre mí |
+           <strong>| sobre mí |</strong> 
           </Link>
 
           <Link onClick={handleClick} to="/formacion">
@@ -90,7 +90,6 @@ const NavContainer = styled.nav`
     }
   }
   padding: 0.4rem;
-  //   background-color: #333;
   background-color: #000;
   display: flex;
   align-items: center;
@@ -99,7 +98,11 @@ const NavContainer = styled.nav`
     color: white;
     text-decoration: none;
     margin-right: 1.5rem;
-    
+    &:hover {
+      text-decoration:line-through;
+      color: rgb(11, 235, 48);
+     
+    }
   }
   .links {
     position: absolute;
@@ -112,6 +115,11 @@ const NavContainer = styled.nav`
       color: white;
       font-size: 1.2rem;
       display: block;
+      &:hover {
+        text-decoration:line-through;
+        color: rgb(11, 235, 48);
+       
+      }
     }
     @media (min-width: 1090px) {
       position: initial;
@@ -121,10 +129,7 @@ const NavContainer = styled.nav`
         margin-left: 30px;
         color: white;
         display: inline;
-        &:hover {
-          transition: all 0.5s ease-out;
-          text-decoration: underline;
-        }
+      
       }
       display: block;
     }
