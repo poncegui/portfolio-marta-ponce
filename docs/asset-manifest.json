@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ca81d628.css",
+    "main.css": "./static/css/main.43523ba0.css",
     "main.js": "./static/js/main.9509e999.js",
     "static/media/coverVideo.mp4": "./static/media/coverVideo.061a5b8c03b6de23401f.mp4",
     "static/media/politecnica.png": "./static/media/politecnica.1205160abca2234578da.png",
@@ -25,11 +25,11 @@
     "static/media/css3-alt.svg": "./static/media/css3-alt.8d2037a4115ce1e9a8d8d36a6ead71ec.svg",
     "static/media/jira.svg": "./static/media/jira.0dd0a5088c564fad557013fdcf62e44c.svg",
     "static/media/html5.svg": "./static/media/html5.c1e5a74f422a1c4ed5c3d11d62357001.svg",
-    "main.ca81d628.css.map": "./static/css/main.ca81d628.css.map",
+    "main.43523ba0.css.map": "./static/css/main.43523ba0.css.map",
     "main.9509e999.js.map": "./static/js/main.9509e999.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca81d628.css",
+    "static/css/main.43523ba0.css",
     "static/js/main.9509e999.js"
   ]
 }
