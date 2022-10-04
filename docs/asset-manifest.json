@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4d383c58.css",
+    "main.js": "./static/js/main.9509e999.js",
+    "static/media/coverVideo.mp4": "./static/media/coverVideo.061a5b8c03b6de23401f.mp4",
+    "static/media/politecnica.png": "./static/media/politecnica.1205160abca2234578da.png",
+    "static/media/foto-portfolio.jpeg": "./static/media/foto-portfolio.e0f5c2c6ae893569805f.jpeg",
+    "static/media/node-react.jpg": "./static/media/node-react.e9bb2e0ce3e2537f6f3f.jpg",
+    "static/media/api-harry-potter.jpg": "./static/media/api-harry-potter.1db5d6fdfd03f6208dc2.jpg",
+    "static/media/react.jpg": "./static/media/react.a28da88112fb29c89276.jpg",
+    "static/media/anime.jpg": "./static/media/anime.51e2c981c541cf8a92a7.jpg",
+    "static/media/alcala.JPG": "./static/media/alcala.240b1b544f6ead9322b4.JPG",
+    "static/media/sacyr.JPG": "./static/media/sacyr.df0a216d18b94bbaabcc.JPG",
+    "static/media/df.JPG": "./static/media/df.e815e86cd28b815d6fb0.JPG",
+    "static/media/adalab.JPG": "./static/media/adalab.76ddefc5d5547d369965.JPG",
+    "static/media/lorem.jpg": "./static/media/lorem.d392572455fde98d7f38.jpg",
+    "static/media/isolux.JPG": "./static/media/isolux.b91f4eadbeb63d48d317.JPG",
+    "static/media/uground.JPG": "./static/media/uground.23cb4247b38ee4e7b193.JPG",
+    "static/media/node.svg": "./static/media/node.311ad3ad87e60c330e28496c52189e7c.svg",
+    "static/media/react.svg": "./static/media/react.43bbe5414340c6c1c4f449a40ceab6e3.svg",
+    "static/media/github.svg": "./static/media/github.8f5bc65e46f2037c9a42cddf3bd6713a.svg",
+    "index.html": "./index.html",
+    "static/media/square-git.svg": "./static/media/square-git.4cccb2ce33d8c661f9a2c6edcbcb11fb.svg",
+    "static/media/square-js.svg": "./static/media/square-js.9c38118c54e2475f0ec81eebb77669ff.svg",
+    "static/media/css3-alt.svg": "./static/media/css3-alt.8d2037a4115ce1e9a8d8d36a6ead71ec.svg",
+    "static/media/jira.svg": "./static/media/jira.0dd0a5088c564fad557013fdcf62e44c.svg",
+    "static/media/html5.svg": "./static/media/html5.c1e5a74f422a1c4ed5c3d11d62357001.svg",
+    "main.4d383c58.css.map": "./static/css/main.4d383c58.css.map",
+    "main.9509e999.js.map": "./static/js/main.9509e999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d383c58.css",
+    "static/js/main.9509e999.js"
+  ]
+}
